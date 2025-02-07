@@ -131,6 +131,6 @@ aside h2 {
     white-space: nowrap;
 }
 
-#content-wrapper {
+#content-wrapper main {
     order: 3;
 }
