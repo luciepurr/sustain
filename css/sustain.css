@@ -65,15 +65,16 @@ main article img {
 
 main section {
     display: flex;
-}
+    justify-content: space-between;
+  }
 
 main section div {
+    flex: 1;
     background-color: #e7ffe7;
     border: 1px solid #008000;
     border-radius: 10px;
     margin-right: 1rem;
     text-align: center;
-    flex: 1;
 }
 
 #bam {
