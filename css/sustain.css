@@ -39,20 +39,20 @@ nav {
     background-color: #008000;
 }
 
-li { 
+nav li { 
     display: inline-block;
     list-style-type: none;
 }
 
-ul a {
+nav ul a {
     display: inline-block;
     padding: 1rem;
     text-decoration: none;
-    font-style: bold;
+    font-weight: bold;
     color: #fff;
 }
 
-ul a:hover { 
+nav ul a:hover { 
     background-color:#000;
     color: #9ae39a;
 }
@@ -75,10 +75,6 @@ main section div {
     border-radius: 10px;
     margin-right: 1rem;
     text-align: center;
-}
-
-#bam {
-    margin-right: 0;
 }
 
 main section div h2 {
@@ -124,7 +120,7 @@ aside {
     position: relative;
     top: 20px;
     flex: 1;
-    order: 2;
+    order: 1;
 }
 
 aside h2 {
@@ -133,5 +129,5 @@ aside h2 {
 }
 
 #content-wrapper main {
-    order: 3;
+    order: 2;
 }
